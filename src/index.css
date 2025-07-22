@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #141414;
+  color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  color: #e50914;
+  margin-top: 20px;
+}
+
+.episodes {
+  font-size: 2rem;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.leftDiv {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.rightDiv {
+  width: 70%;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  min-height: 300px;
+  margin: 20px;
+}
+
+.episodeBtn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.episodeBtn:hover {
+  background-color: #e50914;
+}
+
+.watchBtn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #e50914;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.watchBtn:hover {
+  background-color: #b0060f;
+}
